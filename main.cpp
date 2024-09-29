@@ -1,6 +1,7 @@
 #include <iostream>
 #include <cstdlib>
 #include "Server.h"
+#include "Sensor.h"
 
 using namespace std;
 
@@ -12,6 +13,9 @@ int main(int argc, char** argv){
 	
 	Server server;
 	server.description();
+	
+	Sensor sensor;
+	sensor.description();
 	
 	return 0;
 }
