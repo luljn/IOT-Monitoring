@@ -2,6 +2,7 @@
 #include <cstdlib>
 #include "Server.h"
 #include "Sensor.h"
+#include "Scheduler.h"
 
 using namespace std;
 
@@ -16,6 +17,9 @@ int main(int argc, char** argv){
 	
 	Sensor sensor;
 	sensor.description();
+	
+	Scheduler scheduler;
+	scheduler.description();
 	
 	return 0;
 }
