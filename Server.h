@@ -1,6 +1,10 @@
 #ifndef DEF_SERVER
 #define DEF_SERVER
 
+#include <iostream>
+
+using namespace std;
+
 
 
 class Server{
@@ -12,6 +16,9 @@ class Server{
 		Server& operator=(const Server& server);
 		~Server();
 		void description();	
+		void consoleWrite();
+		void fileWrite();
+		friend ostream& operator<<(ostream& o, Server& s);
 };
 
 
