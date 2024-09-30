@@ -19,6 +19,7 @@ int main(int argc, char** argv){
 	
 	Sensor sensor;
 	sensor.description();
+	cout << sensor.getId() << endl;
 	
 	Scheduler scheduler;
 	scheduler.description();

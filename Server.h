@@ -10,8 +10,8 @@ using namespace std;
 
 class Server{
 	
-	public :
-		
+	public :	
+	
 		Server();
 		Server(Server& server);
 		Server& operator=(const Server& server);

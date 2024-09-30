@@ -5,8 +5,12 @@ using namespace std;
 
 
 
+int Sensor::compteur = 0; // Initialisation de la variable statique.
+
 Sensor::Sensor(){
 	
+	++compteur;
+	this->id = compteur;
 }
 
 Sensor::Sensor(Sensor &Sensor){
