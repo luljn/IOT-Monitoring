@@ -2,7 +2,6 @@
 #define DEF_SENSOR
 
 #include <iostream>
-#include "Server.h"
 
 using namespace std;
 

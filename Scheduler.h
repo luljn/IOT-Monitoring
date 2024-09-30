@@ -25,7 +25,7 @@ class Scheduler{
 		void description();	
 		void consoleWrite();
 		void fileWrite();
-		void addSensor(Sensor& s){ listOfSensors.push_back(s); }  // Ajouter un capteur existant à la liste.
+//		void addSensor(Sensor& s){ listOfSensors.push_back(s); }  // Ajouter un capteur existant à la liste.
 		
 		void simulation();
 		

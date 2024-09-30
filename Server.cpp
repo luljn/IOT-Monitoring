@@ -30,9 +30,9 @@ void Server::description(){
 	printf("Je suis un Serveur !\n");
 }
 
-void Server::receiveSensorData(Sensor& s){
-	
-}
+//void Server::receiveSensorData(Sensor& s){
+//	
+//}
 
 void Server::consoleWrite(){
 	
