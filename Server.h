@@ -2,6 +2,7 @@
 #define DEF_SERVER
 
 #include <iostream>
+#include "Sensor.h"
 
 using namespace std;
 
@@ -16,6 +17,7 @@ class Server{
 		Server& operator=(const Server& server);
 		~Server();
 		void description();	
+		void receiveSensorData(Sensor& s);
 		void consoleWrite();
 		void fileWrite();
 		friend ostream& operator<<(ostream& o, Server& s);
