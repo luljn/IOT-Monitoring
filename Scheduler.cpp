@@ -37,6 +37,10 @@ void Scheduler::fileWrite(){
 	
 }
 
+void Scheduler::simulation(){
+	
+}
+
 ostream& operator<<(ostream& o, Scheduler& s){
 	
 }
