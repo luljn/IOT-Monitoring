@@ -2,6 +2,7 @@
 #define DEF_SENSOR
 
 #include <iostream>
+#include "Server.h"
 
 using namespace std;
 
@@ -14,7 +15,7 @@ class Sensor{
 		static int compteur;
 		int id;              // Identifiant unique de chaque capteur.
 		float value;         // Valeur de mesure du capteur.
-//		Server* server;      // Server dédié aux capteurs.
+		Server* server;      // Server dédié aux capteurs.
 	
 	public :
 		
