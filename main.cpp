@@ -10,6 +10,8 @@ using namespace std;
 
 int main(int argc, char** argv){
 	
+	system("title IOT - Monitoring");
+	
 	printf("Project initialization !\n");
 	
 	Server server;
@@ -17,6 +19,7 @@ int main(int argc, char** argv){
 	
 	Sensor sensor;
 	sensor.description();
+	cout << sensor.getId() << endl;
 	
 	Scheduler scheduler;
 	scheduler.description();
